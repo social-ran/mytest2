@@ -36,8 +36,6 @@ class HelloWorld(AppBase):
         return "Type: %s" % type(value)
     async def return_plus_two(self, number):
         return str(number + 2)
-    async def return_plus_three(self, number):
-        return str(number + 3)
     async def plus_plus(self, number1, number2):
         return str(number1 + number2)
 
