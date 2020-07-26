@@ -36,9 +36,10 @@ class HelloWorld(AppBase):
         return "Type: %s" % type(value)
     async def return_plus_two(self, number):
         return str(number + 2)
-    async def return_plus_plus(self, numone,numtwo):
-        return str(numone + numtwo)
-
+    async def return_plus_plus(self, numone, numtwo):
+        a=numone+numtwo
+        b=str(a)
+        return b
 
 if __name__ == "__main__":
     asyncio.run(HelloWorld.run(), debug=True)
