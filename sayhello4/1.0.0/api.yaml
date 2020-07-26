@@ -82,6 +82,26 @@ actions:
     returns:
       schema:
         type: number
+  - name: return_plus_plus
+    description: Increments the number parameter by 2
+    parameters:
+      - name: number1
+        description: number to increment 2
+        required: true
+        schema:
+          type: number
+        example: number(4)
+     - name: number2
+        description: number to increment 2
+        required: true
+        schema:
+          type: number
+        example: number(4)
+    returns:
+      schema:
+        type: number
+
+
 
 
 
