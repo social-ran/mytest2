@@ -2,11 +2,6 @@ app_version: 1.0.0
 name: Sayhello
 description: Debugging app for Shuffle
 
-contact_info:
-  name: "@frikkylikeme"
-  url: https://shuffler.io
-  email: frikky@shuffler.io
-
 
 actions:
   - name: hello_world
@@ -82,26 +77,7 @@ actions:
     returns:
       schema:
         type: number
-  - name: return_plus_plus
-    description: one number plus another
-    parameters:
-      - name: number1
-        description: one number
-        multiline: false
-        required: true
-        example: number(2)
-        schema:
-          type: number
-      - name: number2
-          description: another number
-          multiline: false
-          required: true
-          schema:
-            type: number
-          example: number(3)
-    returns:
-      schema:
-        type: number
+
 
 
 
