@@ -93,12 +93,12 @@ actions:
         schema:
           type: number
       - name: numtwo
-          description: another number
-          multiline: false
-          required: true
-          schema:
-            type: number
-          example: number(3)
+        description: another number
+        multiline: false
+        required: true
+        schema:
+          type: number
+        example: number(3)
     returns:
       schema:
         type: number
