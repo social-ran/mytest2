@@ -82,24 +82,7 @@ actions:
     returns:
       schema:
         type: number
-  - name: plus_plus
-    description: one number plus another
-    parameters:
-      - name: number1
-        description: one number
-        required: true
-        schema:
-          type: number
-        example: number(2)
-      - name: number2
-          description: another number
-          required: true
-          schema:
-            type: number
-          example: number(3)
-    returns:
-      schema:
-        type: number
+
 
 
 
