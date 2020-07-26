@@ -38,6 +38,5 @@ class HelloWorld(AppBase):
         return str(number + 2)
 
 
-
 if __name__ == "__main__":
     asyncio.run(HelloWorld.run(), debug=True)
