@@ -92,7 +92,7 @@ actions:
         example: number(2)
         schema:
           type: number
-      - name: number2
+      - name: numtwo
           description: another number
           multiline: false
           required: true
